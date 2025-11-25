@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pid
+
+# Virtual envs
+.venv/
+env/
+venv/
+
+# VSCode
+.vscode/
+
+# Chroma DB index files
+backend/chroma_db/
+*.sqlite3
+chroma_db/
+backend/chromadb
+
+# API Keys or local config 
+.env
+
+# Streamlit cache
+.streamlit/
+
+# Logs
+*.log
+*.log.*
