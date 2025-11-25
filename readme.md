@@ -24,6 +24,7 @@ Gemini API
 3. Topic Tagging
 Assign topics like:
 [dbms, maths, ai, networking, etc.]
+in the Topic input box
 
 Queries use topic-specific retrieval for accurate results.
 
@@ -80,12 +81,10 @@ Inside config.py
 USE_GEMINI = True  # or False to use local LLM
 
 
-📄 Example Document
+📄 Example Document and Uploads
 
-Includes a small dummy PDF for testing: 
-
-Upload more PDFs using ingestion endpoint:
-POST http://localhost:8000/ingest
+Includes a few PDFs in data/upload for testing collected from Opensource. 
+Upload more PDFs using ingestion from frontend
 
 ⭐ Future Enhancements
 
