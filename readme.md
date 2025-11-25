@@ -42,28 +42,6 @@ Endpoints:
 /list-topics
 /health
 
-📦 Project Structure
-
-RAG-BUDDY/
-│── backend/
-│   ├── chroma_db/
-│   ├── chromadb/
-│   ├── config.py
-│   ├── ingest.py
-│   ├── llm_local.py
-│   ├── llm_gemini.py
-│   └── main.py
-│
-│── frontend/
-│   └── app.py
-│
-│── data/              # PDF uploads
-│── .env.example       # Template env file
-│── run.sh             # Launch script
-│── requirements.txt
-│── README.md
-
-
 🏁 Quick Start
 
 1️⃣ Clone the repo
